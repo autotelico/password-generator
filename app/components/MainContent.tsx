@@ -16,11 +16,12 @@ export default function MainContent(): React.ReactNode {
   };
 
   const updatePwLength = (operation: string): void => {
-    if (pwLength > 30) return;
     if (operation === '+') {
+      if (pwLength + 1 > 30) return
       setPwLength((prevLength) => prevLength + 1);
     }
     if (operation === '-') {
+      if (pwLength - 1 < 1) return
       setPwLength((prevLength) => prevLength - 1);
     }
   };

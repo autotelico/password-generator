@@ -7,8 +7,8 @@ export default function Footer(): React.ReactNode {
     return (
         <footer className="bg-[#242424] text-[#eee] py-5">
         <div className="mx-auto text-center">
-          <p className=" text-lg">Desenvolvido por</p>
-          <p className="font-semibold text-2xl">Henrique Heron</p>
+          <p className=" text-lg">Developed by</p>
+          <p className="font-semibold text-2xl">Henrique Magalhães</p>
         </div>
         <div className="flex w-[200px] justify-between items-center mx-auto">
           <a href="https://github.com/autotelico">
